@@ -7,6 +7,7 @@ I'm  currently downloading the dataset from my Google Cloud in the current setup
 
 Setup:
 Google Colab L4 GPU (Google Colab Subscription is needed)
+
 Otherwise, you can just run the Jupyter Notebook after getting the dataset.
 
 Currently it contains 3 different U-net architectures:
