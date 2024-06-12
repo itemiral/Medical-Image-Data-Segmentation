@@ -29,13 +29,18 @@ There are 2 ways to evaluate at the end of the file:
 References:
 TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation
 Jieneng Chen, Yongyi Lu, Qihang Yu, Xiangde Luo, Ehsan Adeli, Yan Wang, Le Lu, Alan L. Yuille, Yuyin Zhou
+
 PDF Link: https://arxiv.org/abs/2102.04306
+
 Github Link: https://github.com/Beckschen/TransUNet
 
 U-Net: Convolutional Networks for Biomedical Image Segmentation
 Olaf Ronneberger, Philipp Fischer, Thomas Brox
+
 https://arxiv.org/abs/1505.04597
 
 Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials
+
 PDF Link: https://arxiv.org/abs/1210.5644
+
 Github Link: https://github.com/lucasb-eyer/pydensecrf
