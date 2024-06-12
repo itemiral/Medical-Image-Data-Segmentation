@@ -11,8 +11,8 @@ Otherwise, you can just run the Jupyter Notebook after getting the dataset.
 
 Currently it contains 3 different U-net architectures:
 1) Basic one
-2) U-net with 1 attention channel
-3) U-net with double attention channel
+2) U-net with 1 attention gate
+3) U-net with double attention gate
 
 I saved each model after training, so you can just go straight to the testing portion of the assignment after uploading the model to Colab
 1) unet_SCC_model.h5  ----  U-net run with just the Sparse Cross-Entropy Loss
