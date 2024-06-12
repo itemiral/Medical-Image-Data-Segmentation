@@ -5,7 +5,7 @@ https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd
 
 I'm  currently downloading the dataset from my Google Cloud in the current setup.
 
-Setup:
+**Setup:**
 Google Colab L4 GPU (Google Colab Subscription is needed)
 
 Otherwise, you can just run the Jupyter Notebook after getting the dataset.
@@ -26,32 +26,30 @@ There are 2 ways to evaluate at the end of the file:
 1) Just calculation of the Hausdorff Distance and DSC
 2) Calculation of Haursdorff Distance and DSC after applying CRF
 
-References:
+**References:**
 
-1) TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation
-Jieneng Chen, Yongyi Lu, Qihang Yu, Xiangde Luo, Ehsan Adeli, Yan Wang, Le Lu, Alan L. Yuille, Yuyin Zhou
+1) **TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation
+Jieneng Chen, Yongyi Lu, Qihang Yu, Xiangde Luo, Ehsan Adeli, Yan Wang, Le Lu, Alan L. Yuille, Yuyin Zhou**
 
 PDF Link: https://arxiv.org/abs/2102.04306
 
 Github Link: https://github.com/Beckschen/TransUNet
 
-2) U-Net: Convolutional Networks for Biomedical Image Segmentation
-Olaf Ronneberger, Philipp Fischer, Thomas Brox
+2) **U-Net: Convolutional Networks for Biomedical Image Segmentation
+Olaf Ronneberger, Philipp Fischer, Thomas Brox**
 
 PDF Link: https://arxiv.org/abs/1505.04597
 
 Github Link: https://github.com/milesial/Pytorch-UNet/tree/master/unet
 
-3) Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials
-
-Philipp Krähenbühl, Vladlen Koltun
+3) **Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials
+Philipp Krähenbühl, Vladlen Koltun**
 
 PDF Link: https://arxiv.org/abs/1210.5644
 
 Github Link: https://github.com/lucasb-eyer/pydensecrf
 
-4) Attention U-Net: Learning Where to Look for the Pancreas
-
-Ozan Oktay, Jo Schlemper, Loic Le Folgoc, Matthew Lee, Mattias Heinrich, Kazunari Misawa, Kensaku Mori, Steven McDonagh, Nils Y Hammerla, Bernhard Kainz, Ben Glocker, Daniel Rueckert
+4) **Attention U-Net: Learning Where to Look for the Pancreas
+Ozan Oktay, Jo Schlemper, Loic Le Folgoc, Matthew Lee, Mattias Heinrich, Kazunari Misawa, Kensaku Mori, Steven McDonagh, Nils Y Hammerla, Bernhard Kainz, Ben Glocker, Daniel Rueckert**
 
 PDF Link: https://arxiv.org/abs/1804.03999
