@@ -14,6 +14,13 @@ Currently it contains 3 different U-net architectures:
 2) U-net with 1 attention channel
 3) U-net with double attention channel
 
+I saved each model after training, so you can just go straight to the testing portion of the assignment after uploading the model to Colab
+1) unet_SCC_model.h5  ----  U-net run with just the Sparse Cross-Entropy Loss
+2) unet_SGD_model.h5  ----  U-net run with Combined Loss = Dice Loss + Sparce Cross-Entropy Loss + using SGD optimizer (momentum=0.9, lr = 0.001)
+3) unet_combined_Adam_model.h5 ---- U-net run with Combined Loss + Adam Optimizer (lr = 0.001)
+4) unet_single_model.h5 ---- U-net run with Combined Loss + 1 attention channel + Adam Optimizer
+5) unet_attention_model.h5 ---- U-net run with Combined Loss + 2 attention channels + Adam Optimizer
+
 There are 2 ways to evaluate at the end of the file:
 1) Just calculation of the Hausdorff Distance and DSC
 2) Calculation of Haursdorff Distance and DSC after applying CRF
